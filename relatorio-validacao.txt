@@ -1,0 +1,27 @@
+BRASA & CO. / DAWEBI — validação da edição premium
+Data: 09/10/2026
+
+APROVADO: sintaxe JavaScript (node --check).
+APROVADO: 28 produtos, IDs, preços, valores anteriores e 24 variantes iguais ao catálogo original.
+APROVADO: fotos locais para todos os produtos; recursos HTML existentes.
+APROVADO: adição, agregação, variantes separadas, incremento/decremento, remoção e total em teste de código.
+APROVADO: recuperação segura de JSON corrompido, objetos inválidos e valores negativos no armazenamento.
+APROVADO: checkout interceptado com retirada/PIX e entrega/dinheiro, endereço, troco, observações e total.
+APROVADO: bloqueio de checkout sem cliente, sem pagamento, sem endereço e com troco insuficiente.
+APROVADO NO NAVEGADOR: menu mobile, navegação entre páginas, busca por duplo, busca guarana sem acento e ordenação por menor preço.
+APROVADO NO NAVEGADOR: 2 Classic Burgers + Coca-Cola 2L = R$ 74,80; persistência após mudança de página e reload.
+APROVADO NO NAVEGADOR: remoção até carrinho vazio; apresentação condicional dos campos de endereço e troco.
+APROVADO NO NAVEGADOR: oito páginas em viewport 320px sem overflow horizontal; vistas adicionais em 390, 648 e 1440px.
+APROVADO NO NAVEGADOR: nenhum erro de console ou foto quebrada observado.
+APROVADO NO NAVEGADOR: transforms das batatas mudam entre topo, seção e final da página conforme o scroll.
+
+LIMITES: não enviamos um pedido real; não confirmamos que o número original recebe WhatsApp. Fotos são ilustrativas e algumas fontes enviadas são de baixa resolução. Preferência por movimento reduzido implementada; navegação por teclado e foco visível implementados, sem auditoria formal de acessibilidade.
+
+EDIÇÃO 3 — MOBILE PREMIUM
+APROVADO: 32 vistas das oito páginas em viewports 320, 360, 390 e 430 px, sem overflow horizontal, título da abertura cortado ou foto quebrada observada.
+APROVADO: novo menu abre/fecha, Escape fecha e devolve o foco, atalhos inferiores navegam e categorias ficam fixas durante o scroll.
+APROVADO: controles de quantidade com 44x46 px e botão Adicionar com altura de 48 px em viewport 390 px.
+APROVADO: 2 Classic Burgers e Coca-Cola 2L persistem após navegação e reload; total R$ 74,80. Remoção até estado vazio.
+APROVADO: campos de entrega e troco aparecem conforme seleção; inputs com fonte de 16 px.
+APROVADO: vista desktop em 1440 px mantém hero em duas colunas, cinco categorias e atalhos mobile ocultos.
+Nenhum erro de console observado. Testes realizados em navegador com viewports ajustados; não em aparelhos físicos iOS/Android.
